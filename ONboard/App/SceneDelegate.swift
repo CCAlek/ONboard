@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  ONboard
-//
-//  Created by skyeng on 17.02.2023.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
@@ -15,7 +8,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let winScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: winScene)
-        window?.rootViewController = ViewController()
+        window?.rootViewController = RootViewController()
         window?.makeKeyAndVisible()
     }
 
